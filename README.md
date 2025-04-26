@@ -4,5 +4,6 @@ Cấu trúc dữ liệu và giải thuật, nhưng theo phong cách cợt nhả.
 **Tác giả:** _Nguyễn Văn Biên, Biên trong biên giới._
 
 
-# [Phần 2. Cấu trúc dữ liệu và giải thuật](Phần 2. Cấu trúc dữ liệu và giải thuật)
+# Phần 2. Cấu trúc dữ liệu và giải thuật
+## 1. Từ câu chuyện của Sanji đến các bước cơ bản khi tiến hành giải bài toán tin học
 
