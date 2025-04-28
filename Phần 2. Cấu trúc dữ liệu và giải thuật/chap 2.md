@@ -20,6 +20,11 @@ Câu trả lời là: Chưa chắc! Nếu Ben được nấu bằng bếp ga và
 
 Giống như bếp ga và bếp củi, thời gian thực thi của chương trình phụ thuộc vào nhiều yếu tố như là sức mạnh CPU, ngôn ngữ lập trình và trình biên dịch compiler. Vì vậy, người ta tạo ra một lý thuyết chung để đánh giá tốc độ của một thuật toán, gọi là **Big O notation**.
 
+<img width="200" alt="bep cui" src="https://github.com/user-attachments/assets/2204732d-79d6-43b4-9663-fe86da3a6e47">
+<img width="200" alt="bep ga" src="https://github.com/user-attachments/assets/2d131919-62bf-4d56-9cfa-aa5b292c279d">
+
+
+
 ## 2.3. Big O notation
 
 Quay trở lại với những miếng gà, để phục vụ cho `n=100` đơn hàng:
