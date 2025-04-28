@@ -1,4 +1,3 @@
-
 # 2. PHÂN TÍCH THỜI GIAN THỰC HIỆN GIẢI THUẬT
 ## 2.1 Tại sao phải quan tâm thời gian chạy?
 
@@ -31,7 +30,7 @@ Quay trở lại với những miếng gà, để phục vụ cho `n=100` đơn 
 - Chiên trong nồi áp suất sẽ tốn: **`O(10n)`** = 10 x 100 = 1000 phút.
 - Chiên trên chảo thường sẽ tốn:  **`O(20n)`** = 20 x 100 = 2000 phút.
 
-Độ phức tạp thuật toán **Big O** (ký hiệu là **O**) là một cách để miêu tả độ phức tạp của thuật toán khi số lượng đơn hàng/input **`n`** tăng lên. Big O có thể là về độ phức tạp về thời gian (**time complexity**) hoặc về không gian (**space complexity**).
+**Big O** (ký hiệu là **O**) là một cách để miêu tả độ phức tạp của thuật toán khi số lượng đơn hàng/input **`n`** tăng lên. Big O có thể là về độ phức tạp về thời gian (**time complexity**) hoặc về không gian (**space complexity**).
 
 Big O thường được sử dụng để mô tả hiệu suất trong **trường hợp xấu nhất**, đảm bảo rằng thuật toán sẽ không bao giờ chạy chậm hơn giới hạn đã cho. Ví dụ:
 
