@@ -38,9 +38,11 @@ Thuật toán trong lập trình cũng giống như cách mà bạn chiên gà v
 
 ## 2.2. Làm sao để so sánh công bằng?
 
-Thật ra, thời gian thực thi chạy của chương trình còn phụ thuộc vào nhiều yếu tố như là sức mạnh CPU (VD: Intel Core i3 2010 vs Apple M4 2024), ngôn ngữ lập trình và trình biên dịch compiler (VD: Python vs C++). Cũng giống nhau nấu bếp củi phải tốn thời gian nhóm bếp nếu so với bếp ga vậy.
+Khi Ben và Biên phải làm món trứng ốp la đơn giản, chỉ cần đổ dầu vào chảo và đập quả trứng cái bẹp là xong. Vậy liệu 2 người sẽ hoàn thành món ăn trong cùng 1 khoảng thời gian chứ?
 
-Vì vậy, người ta tạo ra một lý thuyết chung để đánh giá tốc độ của một thuật toán, gọi là **Big O notation**.
+Câu trả lời là: Chưa chắc! Nếu Ben được nấu bằng bếp ga và Biên phải nấu bằng bếp củi, thì Biên còn lâu mới xong được tại còn phải nhóm củi nữa.
+
+Giống như bếp ga và bếp củi, thời gian thực thi của chương trình phụ thuộc vào nhiều yếu tố như là sức mạnh CPU, ngôn ngữ lập trình và trình biên dịch compiler. Vì vậy, người ta tạo ra một lý thuyết chung để đánh giá tốc độ của một thuật toán, gọi là **Big O notation**.
 
 ## 2.3. Big O notation
 
@@ -48,14 +50,26 @@ Quay trở lại với những miếng gà, để phục vụ cho `n=100` đơn 
 - Chiên trong nồi áp suất sẽ tốn: **`O(10n)`** = 10 x 100 = 1000 phút.
 - Chiên trên chảo thường sẽ tốn:  **`O(20n)`** = 20 x 100 = 2000 phút.
 
-Độ phức tạp thuật toán **Big O** (ký hiệu là **O**) là một cách để miêu tả độ phức tạp của thuật toán khi số lượng đơn hàng/Input **`n`** tăng lên. Big O có thể là về độ phức tạp về thời gian (**time complexity**) hoặc về không gian (**space complexity**).
+Độ phức tạp thuật toán **Big O** (ký hiệu là **O**) là một cách để miêu tả độ phức tạp của thuật toán khi số lượng đơn hàng/input **`n`** tăng lên. Big O có thể là về độ phức tạp về thời gian (**time complexity**) hoặc về không gian (**space complexity**).
 
 Big O thường được sử dụng để mô tả hiệu suất trong **trường hợp xấu nhất**, đảm bảo rằng thuật toán sẽ không bao giờ chạy chậm hơn giới hạn đã cho. Ví dụ:
-1. `O(1)` - Hằng số: Thời gian không đổi dù `n` là bao nhiêu.
-   - Nếm thử: Dù nồi to hay nồi nhỏ, đều chỉ cần nếm thử 1 miếng.
-   - Lấy phần tử đầu tiên của array: `arr[0]`.
+
+1. **O(1)** - hằng số: Thời gian không đổi dù `n` là bao nhiêu. VD:
+   - Nếm thử: Dù bạn có nấu nồi súp xương hầm rau củ siêu to khổng lồ, hay nồi rau ngót nhỏ cho 1 người ăn, đều chỉ cần nếm thử 1 miếng.
+   - Lấy phần tử đầu tiên của array `arr[0]`.
+2. **O(n)** - tuyến tính: Thời gian tỉ lệ với `n`. VD:
+   - Rửa `n` cái bát bằng tay.
+   - Duyệt qua `n` phần tử trong mảng.
+3. **O(n<sup>2</sup>)**, **O(n<sup>3</sup>)** - luỹ thừa: Tăng nhanh theo luỹ thừa của `n`. VD:
+   - 2,3 vòng lặp lồng nhau.
+4. **O(_log<sub>2</sub>_ n)** - logarit hệ cơ số 2: Tăng rất chậm dù `n` tăng rất nhanh. VD:
+   - Tìm kiếm nhị phân.
+5. **O(2<sup>n</sup>)** - hàm mũ: Tăng nhanh khủng khiếp, khiến cho bài toán trở nên bất khả thi nếu `n` ngày càng lớn.
+
+## 2.4. Quy tắc ước lượng Big O
 
 
+## 2.5. Thực hành
 
 
 
